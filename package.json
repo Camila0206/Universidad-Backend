@@ -1,0 +1,30 @@
+{
+  "name": "universidad-api",
+  "version": "1.0.0",
+  "description": "API proyecto Universidad",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camila0206/Universidad-Backend.git"
+  },
+  "author": "Camila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camila0206/Universidad-Backend/issues"
+  },
+  "homepage": "https://github.com/Camila0206/Universidad-Backend#readme",
+  "dependencies": {
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "nodemailer": "^6.6.0",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
